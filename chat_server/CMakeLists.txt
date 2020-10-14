@@ -5,23 +5,23 @@ set(CMAKE_CXX_STANDARD 11)
 
 #源文件路径
 #AUX_SOURCE_DIRECTORY(src/service/ SRC)
-#AUX_SOURCE_DIRECTORY(/mnt/hgfs/Server-C++/chat_server/src/service/ SRC)
+AUX_SOURCE_DIRECTORY(/mnt/hgfs/Server-C++/chat_server/src/ SRC)
 
 #声明main函数入口文件
-set(SRC src/proto/CommonProto.pb.cc
-		src/core/process/fl_chat_cmd_processor_factory.cpp
-		src/core/config/fl_chat_config.cpp
-		src/core/service/fl_chat_service.cpp
-		src/service/fl_chat_login_processor.cpp
-		src/fl_chat_main.cpp
-		src/core/net/fl_chat_net_callback.cpp
-		src/core/session/fl_chat_online_user.cpp
-		src/core/process/fl_chat_processor_base.cpp
-		src/core/service/fl_chat_service.cpp
-		src/config/fl_chat_system_config.cpp
-		src/core/timer/fl_chat_timer.cpp
-		src/core/db/fl_chat_redis.cpp
-		)
+#set(SRC src/proto/CommonProto.pb.cc
+#		src/core/process/fl_chat_cmd_processor_factory.cpp
+#		src/core/config/fl_chat_config.cpp
+#		src/core/service/fl_chat_service.cpp
+#		src/service/fl_chat_login_processor.cpp
+#		src/fl_chat_main.cpp
+#		src/core/net/fl_chat_net_callback.cpp
+#		src/core/session/fl_chat_online_user.cpp
+#		src/core/process/fl_chat_processor_base.cpp
+#		src/core/service/fl_chat_service.cpp
+#		src/config/fl_chat_system_config.cpp
+#		src/core/timer/fl_chat_timer.cpp
+#		src/core/db/fl_chat_redis.cpp
+#		)
 
 #声明头文件路径
 set(
@@ -29,10 +29,8 @@ set(
         ./
         /mysql/app/mysql80/include
         /usr/local/include
-        /usr/local/include/public_include/protocol
-        /usr/local/include/public_include/util
-	/mnt/hgfs/Server-C++/public_include/protocol
-	/mnt/hgfs/Server-C++/public_include/util
+		/mnt/hgfs/Server-C++/public_include/protocol
+		/mnt/hgfs/Server-C++/public_include/util
 )
 
 #链接库目录

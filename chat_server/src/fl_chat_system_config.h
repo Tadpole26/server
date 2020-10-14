@@ -9,7 +9,7 @@
 #ifndef __FL_CHAT_SYSTEM_CONFIG_H__
 #define __FL_CHAT_SYSTEM_CONFIG_H__
 
-#include "src/core/config/fl_chat_config_base.h"
+#include "fl_chat_config_base.h"
 
 struct fl_chat_system_time_set_info_t
 {

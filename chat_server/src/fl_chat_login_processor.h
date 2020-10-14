@@ -8,10 +8,10 @@
 #ifndef __FL_CHAT_LOGIN_PROCESSOR_H__
 #define	__FL_CHAT_LOGIN_PROCESSOR_H__
 
-#include "src/core/process/fl_chat_processor_base.h"
-#include "src/core/process/fl_chat_cmd_processor_factory.h"
-#include "src/core/db/fl_chat_redis.h"
-#include "src/core/log/fl_chat_log.h"
+#include "fl_chat_processor_base.h"
+#include "fl_chat_cmd_processor_factory.h"
+#include "fl_chat_redis.h"
+#include "fl_chat_log.h"
 
 class CRkChatLoginProcessor : public CFlChatProcessorBase
 {

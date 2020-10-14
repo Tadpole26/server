@@ -7,8 +7,8 @@
 
 #ifndef __FL_CHAT_CMD_PROCESSOR_FACTORY_H__
 #define __FL_CHAT_CMD_PROCESSOR_FACTORY_H__
-#include "src/core/process/fl_chat_processor_base.h"
-#include "src/core/log/fl_chat_log.h"
+#include "fl_chat_processor_base.h"
+#include "fl_chat_log.h"
 #include "fl_gmsv_cmd.h"
 #include <functional>
 /*

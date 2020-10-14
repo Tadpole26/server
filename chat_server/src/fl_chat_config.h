@@ -7,7 +7,7 @@
 
 #ifndef __FL_CHAT_CONFIG_H__
 #define __FL_CHAT_CONFIG_H__
-#include "src/config/fl_chat_system_config.h"
+#include "fl_chat_system_config.h"
 
 
 

@@ -14,9 +14,9 @@
 #include <event2/util.h>
 #include <event2/event.h>
 #include <cstring>
-#include "src/core/net/fl_chat_client_header.h"
-#include "src/core/session/fl_chat_online_user.h"
-#include "src/core/cmd/fl_chat_errcode.h"
+#include "fl_chat_client_header.h"
+#include "fl_chat_online_user.h"
+#include "fl_chat_errcode.h"
 
 #include <spdlog/spdlog.h>
 #include <spdlog/fmt/bundled/format.h>

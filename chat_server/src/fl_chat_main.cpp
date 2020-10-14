@@ -1,4 +1,4 @@
-#include "src/core/service/fl_chat_service.h"
+#include "fl_chat_service.h"
 
 int main(int argc, char** argv)
 {

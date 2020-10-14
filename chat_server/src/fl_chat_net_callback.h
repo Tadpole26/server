@@ -11,8 +11,8 @@
 
 #include "fl_chat_client_header.h"
 #include "fl_gmsv_cmd.h"
-#include "src/core/process/fl_chat_cmd_processor_factory.h"
-#include "src/core/log/fl_chat_log.h"
+#include "fl_chat_cmd_processor_factory.h"
+#include "fl_chat_log.h"
 
 struct fl_chat_net_all_server_extra_data_t
 {

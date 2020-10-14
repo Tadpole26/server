@@ -7,12 +7,12 @@
 
 #ifndef __FL_CHAT_SERVICE_H__
 #define __FL_CHAT_SERVICE_H__
-#include "src/core/config/fl_chat_config.h"
-#include "src/core/net/fl_chat_net_callback.h"
-#include "src/core/timer/fl_chat_timer.h"
-#include "src/core/db/fl_chat_redis.h"
-#include "src/core/net/fl_chat_net_bev.h"
-#include "src/core/log/fl_chat_log.h"
+#include "fl_chat_config.h"
+#include "fl_chat_net_callback.h"
+#include "fl_chat_timer.h"
+#include "fl_chat_redis.h"
+#include "fl_chat_net_bev.h"
+#include "fl_chat_log.h"
 
 #include <iostream>
 #include <stdio.h>
